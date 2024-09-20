@@ -13,11 +13,11 @@
 <body>
   <!-- Inicio con un contenedor que engloba la pagina entera -->
   <div class="container">
-    <!-- Cabecero de la pagina  -->
     <div class="row">
-      <!-- Cabecero -->
+      <!-- Barra de navegacion de arriba -->
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
+          <!-- Parte izq nav -->
           <div class="col 8">
             <a class="navbar-brand" href="#">
               <img src="https://cdn-icons-png.flaticon.com/128/87/87390.png" alt="Logo" width="25" height="25"
@@ -25,7 +25,9 @@
               <strong>Instagram</strong>
             </a>
           </div>
+          <!-- Parte derecha nav -->
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <!-- 1er boton con modal -->
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               Create a new post
             </button>
@@ -61,7 +63,7 @@
                 </div>
               </div>
             </div>
-
+            <!-- 2do boton desplegable -->
             <div class="btn-group">
               <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -80,12 +82,14 @@
           </div>
         </div>
       </nav>
+      <!-- Switch  -->
       <div class="m-3 d-grid gap-2 d-md-block text-center">
         <button class="btn btn-link" type="button" onclick="document.location='index.html'"><i
             class="fa-solid fa-table-cells"><i class="bi bi-grid-3x3"></i></i></button>
         <button class="btn btn-link" type="button" onclick="document.location='tarjeta.html'"><i
             class="fa-solid fa-square"></i><i class="bi bi-app"></i></button>
       </div>
+      <!-- Grid de 3 -->
       <div class="container-fluid">
         <div class="row">
           <div class="col px-1 py-1"><img src="https://picsum.photos/seed/picsum/536/354" width="100%" ></div>
